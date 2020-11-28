@@ -1,0 +1,68 @@
+body {
+  /* background: url(../img/carback.jpg) no-repeat; */
+  /* background-size: cover;
+  font-size: 15px; */
+  background: linear-gradient(to right, rgb(106, 106, 238), pink);
+  /* background-color: burlywood; */
+  /* background: repeating-radial-gradient(black, black 5px, white 5px, white 10px); */
+}
+
+/*给表单的边框设置大小,颜色和不透明度*/
+.form-login {
+  /* background: rgb(83, 238, 230); */
+  width: 400px;
+  margin: 50px auto;
+}
+
+/*设置字体和大小*/
+label {
+  font-family: Arial;
+  font-size: 25px
+}
+
+/* div {
+  width: 160px;
+  height: 200px;
+  background: #fff;
+  margin: 100px auto;
+  transition: all 0.2s linear 0s;
+} */
+
+/* div:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translate(0, -5px);
+} */
+
+/*当输入正确时,给输入框设置浅绿色*/
+input.form-control:valid {
+  background-color: mintcream;
+}
+
+/*当输入正确时,给输入框设置浅红色*/
+input.form-control:invalid {
+  background-color: #ffeeed;
+}
+
+/*设置图标为行内元素，并设置大小和颜色*/
+.fa {
+  display: inline-block;
+  top: 27px;
+  left: 6px;
+  position: relative;
+  color: #575757;
+}
+
+/*为几个输入框设置padding,防止和图标重合*/
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding-left: 26px;
+}
+
+.form-title {
+  padding-top: 20px;
+}
+
+#button {
+  padding-bottom: 50px;
+}
